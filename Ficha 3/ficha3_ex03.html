@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha3_ex03</title>
+    <form>
+        Nome:
+        <input type="text" name="name" required placeholder="Escreva o seu nome" >
+        <br>
+        Email:
+        <input type="email" name="email" required placeholder="Escreva o seu email" >
+        <br>
+        Idade:
+        <input type="number" name="idade" required min="1">
+        <br>
+        Data de Nascimento:
+        <input type="date" name="dianascimento"> 
+        <br>
+        Nacionalidade:
+        <select name="nacionalidade" id="nacionalidade">
+            <option value="Portugal">Portugal</option>
+            <option value="Espanha">Espanha</option>
+            <option value="França">França</option>
+        </select>
+        <br>
+        Palavra-Passe:
+        <input type="password" name="password" minlength="8" required pattern="[A-Za-Z]{8}" >
+        <br>
+        <input type="submit" value="Submeter">
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
